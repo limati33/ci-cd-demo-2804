@@ -1,7 +1,8 @@
-const assert = require('assert');
+// test/example.test.js
+const assert = require('chai').assert;
 
-describe('Example Test', function () {
-  it('should return true', function () {
-    assert.strictEqual(true, true);
+describe('Sample Test', function() {
+  it('should pass', function() {
+    assert.equal(1 + 1, 2);
   });
 });
